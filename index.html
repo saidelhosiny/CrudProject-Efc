@@ -1,0 +1,52 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/test.css">
+   
+</head>
+<body>
+
+    <div class="w-75 m-auto">
+        <h1 class="text-center">CRUD</h1>
+
+        <label for="">nameProduct::</label>
+        <input type="text" name="" class=" form-control my-2" id="nameProduct">
+        <label for="">priceProduct::</label>
+        <input type="text" name="" class=" form-control my-2" id="priceProduct">
+        <label for="">Category::</label>
+        <input type="text" name="" class=" form-control my-2" id="Category">
+        <label for="">Describtion::</label>
+        <input type="text" name="" class=" form-control my-2" id="Describtion">
+
+        <button id="submit" onclick="addProduct()" class=" btn btn-outline-primary w-100">Submit</button>
+        <button id="update" onclick="finalUpdate()" class=" btn btn-outline-warning w-100">Update</button>
+        <table class="table mt-5  text-center   ">
+            <thead>
+              <tr>
+                <th scope="col">Id</th>
+                <th scope="col">nameProduct</th>
+                <th scope="col">priceProduct</th>
+                <th scope="col">Category</th>
+                <th scope="col">Describtion</th>
+                <th scope="col">Delete</th>
+                <th scope="col">Update</th>
+              </tr>
+            </thead>
+            <tbody id="demo">
+              
+            
+            </tbody>
+          </table>
+    </div>
+
+
+    
+
+    <script src="js/test.js"></script>
+</body>
+</html>
